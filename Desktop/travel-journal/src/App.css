@@ -36,15 +36,11 @@ body {
 / CARD 
 /***************/
 .card {
-    /* border: 1px solid red; */
-    /* display: grid; */
     margin:  2.5em;
-    /* grid-template-areas: "image info info"; */
-    /* grid-template-columns: 1fr 1fr 1fr; */
     min-width: 250px;
     color: #2B283A;
     border-bottom: 1px solid #c2c2c2;
-
+    padding-bottom: 30px;
 }
 
 .card--photo {
