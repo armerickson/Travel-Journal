@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/Travel-Journal/static/css/main.306b92ca.css",
-    "main.js": "/Travel-Journal/static/js/main.3ef27fd2.js",
-    "static/media/globe.png": "/Travel-Journal/static/media/globe.5f27250999813b274957.png",
-    "index.html": "/Travel-Journal/index.html",
-    "main.306b92ca.css.map": "/Travel-Journal/static/css/main.306b92ca.css.map",
-    "main.3ef27fd2.js.map": "/Travel-Journal/static/js/main.3ef27fd2.js.map"
+    "main.css": "/Tenzi/static/css/main.49e1ac6a.css",
+    "main.js": "/Tenzi/static/js/main.0f3c6dc5.js",
+    "index.html": "/Tenzi/index.html",
+    "main.49e1ac6a.css.map": "/Tenzi/static/css/main.49e1ac6a.css.map",
+    "main.0f3c6dc5.js.map": "/Tenzi/static/js/main.0f3c6dc5.js.map"
   },
   "entrypoints": [
-    "static/css/main.306b92ca.css",
-    "static/js/main.3ef27fd2.js"
+    "static/css/main.49e1ac6a.css",
+    "static/js/main.0f3c6dc5.js"
   ]
 }
