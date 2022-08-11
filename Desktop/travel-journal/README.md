@@ -1,5 +1,4 @@
-# Tenzi
+# Travel Journal
 
-Based on the popular Tenzi dice game.
-Made with React.
+Travel Journal UI made with CSS and React.
 
