@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/****************
+/ HEADER 
+/***************/
+.header {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    background-color: #F55A5A;
+    color: #FFF;
+    
+}
+
+.header--world-icon {
+    max-width: 1.5rem;
+    height: 1.5rem;
+}
+
+.header--title {
+    font-size: 0.90375rem;
+    font-weight: 500;
+}
+
+/****************
+/ CARD 
+/***************/
+.card {
+    /* border: 1px solid red; */
+    /* display: grid; */
+    margin:  2.5em;
+    /* grid-template-areas: "image info info"; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    min-width: 250px;
+    color: #2B283A;
+    border-bottom: 1px solid #c2c2c2;
+
+}
+
+.card--photo {
+    max-width: 100%;
+    max-height: 400px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card--head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card--country {
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.17em;
+}
+
+.card--maps-link {
+    font-size: 0.8rem;
+    color: #918E9B;
+}
+
+.card--title {
+    margin: 0 0 10px 0;
+    font-size: 1.875rem;
+}
+
+.card--duration {
+    display: flex;
+    align-items: center;
+    gap: 0.375em;
+    font-size: 0.75rem;
+}
+
+.card--description {
+    font-size: 0.875rem;
+    line-height: 150%;
+    margin: -0.375em 0 0 0;
+    padding: 0 0 1.8em 0;
+    max-width: 600px;
+}
+
+@media (min-width: 600px) {
+    .card {
+        display: grid;
+        grid-template-areas: "image info info";
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .card--info {
+        grid-area: info;
+        margin: 0 0 0 20px;
+    }
+}
